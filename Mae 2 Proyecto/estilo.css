@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Open Sans';
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    font-family: 'Open Sans';
+    background-color: #757575;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover  {
+    background-color: black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenido {
+    font-family: 'Open Sans';
+    display: flex;
+    margin: 60px;
+}
+.Articulos {
+    width: 80%;
+    border-right: 3px solid black;
+}
+.Secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.Ferrocaril-Secundario {
+    width: 20%;
+    margin-top: 60px;
+}
+.Ferrocaril-Secundario a {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding: 20px;
+}
